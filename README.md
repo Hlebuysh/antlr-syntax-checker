@@ -24,7 +24,7 @@
    docker run -p {{ваш порт}}:8080 antlr-syntax-checker
 
 ### Пример использования
-1. **Отправьте запрос ```POST``` к ```http://localhost:{ваш порт}/checkSyntax```**.
+1. **Отправьте запрос ```POST``` к ```http://localhost:{{ваш порт}}/checkSyntax```**.
 
 2. **В теле запроса укажите Java-код, который хотите проверить**:
    ```json
