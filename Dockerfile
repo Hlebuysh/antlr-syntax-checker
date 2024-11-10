@@ -30,6 +30,3 @@ COPY --from=build /app/target/*.jar app.jar
 
 # Указываем команду запуска для Spring Boot приложения
 ENTRYPOINT ["java", "-jar", "app.jar"]
-
-
-ENTRYPOINT ["top", "-b"]
